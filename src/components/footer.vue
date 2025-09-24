@@ -74,48 +74,43 @@ export default {
             <h5 class="text-light footer-head">Company</h5>
             <ul class="list-unstyled footer-list mt-4">
               <li>
-                <router-link to="/page-aboutus" class="text-foot"
+                <router-link to="/Home" class="text-foot"
+                  ><i class="mdi mdi-chevron-right mr-1"></i> Home</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/About-Us" class="text-foot"
                   ><i class="mdi mdi-chevron-right mr-1"></i> About
                   us</router-link
                 >
               </li>
               <li>
-                <router-link to="/page-services" class="text-foot"
+                <router-link to="/Workspaces" class="text-foot"
                   ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Services</router-link
+                  Workspaces</router-link
                 >
               </li>
               <li>
-                <router-link to="/page-team" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i> Team</router-link
+                <router-link to="/Community" class="text-foot"
+                  ><i class="mdi mdi-chevron-right mr-1"></i>Community</router-link
                 >
               </li>
               <li>
-                <router-link to="/page-pricing" class="text-foot"
+                <router-link to="/Contact" class="text-foot"
                   ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Pricing</router-link
+                  Contact</router-link
                 >
               </li>
               <li>
-                <router-link to="/page-portfolio-modern" class="text-foot"
+                <router-link to="/Blog" class="text-foot"
+                ><i class="mdi mdi-chevron-right mr-1"></i>
+                Blog</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/Sign-in" class="text-foot"
                   ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Project</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/page-jobs" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Careers</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/page-blog-grid" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i> Blog</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/auth-cover-login" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i> Login</router-link
+                  Sign in</router-link
                 >
               </li>
             </ul>
@@ -138,21 +133,8 @@ export default {
                 >
               </li>
               <li>
-                <router-link to="/documentation" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Documentation</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/changelog" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Changelog</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/components" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Components</router-link
+                <router-link to="/Booking" class="text-foot"
+                  ><i class="mdi mdi-chevron-right mr-1"></i> Booking</router-link
                 >
               </li>
             </ul>
@@ -204,66 +186,16 @@ export default {
     <!--end footer-->
     <footer class="footer footer-bar">
       <div class="container text-center">
-        <div class="row align-items-center">
+        <div class="row align-items-center justify-content-center">
           <div class="col-sm-6">
-            <div class="text-sm-left">
-              <p class="mb-0">
+            <div class="text-sm-left text-center ">
+              <p class="mb-0 mx-auto">
                 © 2025 - {{ new Date().getFullYear() }} Resonate. All Rights Reserved.
               </p>
             </div>
           </div>
           <!--end col-->
 
-          <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
-            <ul class="list-unstyled text-sm-right mb-0">
-              <li class="list-inline-item">
-                <a href="javascript:void(0)"
-                  ><img
-                    src="images/payments/american-ex.png"
-                    class="avatar avatar-ex-sm"
-                    title="American Express"
-                    alt=""
-                /></a>
-              </li>
-              <li class="list-inline-item ml-1">
-                <a href="javascript:void(0)"
-                  ><img
-                    src="images/payments/discover.png"
-                    class="avatar avatar-ex-sm"
-                    title="Discover"
-                    alt=""
-                /></a>
-              </li>
-              <li class="list-inline-item ml-1">
-                <a href="javascript:void(0)"
-                  ><img
-                    src="images/payments/master-card.png"
-                    class="avatar avatar-ex-sm"
-                    title="Master Card"
-                    alt=""
-                /></a>
-              </li>
-              <li class="list-inline-item ml-1">
-                <a href="javascript:void(0)"
-                  ><img
-                    src="images/payments/paypal.png"
-                    class="avatar avatar-ex-sm"
-                    title="Paypal"
-                    alt=""
-                /></a>
-              </li>
-              <li class="list-inline-item ml-1">
-                <a href="javascript:void(0)"
-                  ><img
-                    src="images/payments/visa.png"
-                    class="avatar avatar-ex-sm"
-                    title="Visa"
-                    alt=""
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <!--end col-->
         </div>
         <!--end row-->
       </div>
