@@ -2,11 +2,11 @@
   "name": "landrick",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "serve": "vue-cli-service serve",
-  "build": "vue-cli-service build",
-  "lint": "vue-cli-service lint"
-},
+  "scripts": {
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && node server.js"
+  },
   "dependencies": {
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.21.2",
